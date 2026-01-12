@@ -1,0 +1,15 @@
+{
+  "telegram": {
+    "bot_token": "${TELEGRAM_BOT_TOKEN}",
+    "chat_id": "${TELEGRAM_CHAT_ID}"
+  },
+  "schedule": {
+    "times": ["10:00", "20:00"],
+    "timezone": "Europe/Moscow"
+  },
+  "limits": {
+    "fundraising_per_digest": 10,
+    "articles_per_digest": 15
+  },
+  "fundraising_hours": 168
+}

@@ -1,0 +1,86 @@
+{
+  "vip_sources": {
+    "a16z": "https://medium.com/feed/@a16z",
+    "a16z_crypto_substack": "https://a16zcrypto.substack.com/feed",
+    "messari": "https://medium.com/feed/@MessariCrypto",
+    "messari_substack": "https://messari.substack.com/feed",
+    "coinbase": "https://medium.com/feed/@coinbase",
+    "chainalysis": "https://medium.com/feed/chainalysis",
+    "coinmetrics": "https://coinmetrics.substack.com/feed"
+  },
+
+  "institutional_scrape": {
+    "ark_invest": {
+      "url": "https://www.ark-invest.com/articles",
+      "type": "scrape",
+      "filter_tags": ["Cryptocurrency", "Bitcoin", "Blockchain", "DeFi", "Digital Assets"]
+    },
+    "grayscale": {
+      "url": "https://research.grayscale.com/",
+      "type": "scrape"
+    }
+  },
+
+  "protocol_blogs": {
+    "aave": "https://aave.mirror.xyz/feed/atom",
+    "lido": "https://blog.lido.fi/rss/",
+    "compound": "https://medium.com/feed/compound-finance",
+    "curve": "https://news.curve.fi/rss/",
+    "eigenlayer": "https://www.blog.eigenlayer.xyz/rss/",
+    "arbitrum": "https://arbitrumfoundation.medium.com/feed",
+    "ethereum_foundation": "https://blog.ethereum.org/feed.xml",
+    "synthetix": "https://blog.synthetix.io/rss/",
+    "bancor": "https://blog.bancor.network/feed"
+  },
+
+  "news": {
+    "coindesk": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "cointelegraph": "https://cointelegraph.com/rss",
+    "theblock": "https://www.theblock.co/rss.xml",
+    "decrypt": "https://decrypt.co/feed",
+    "dlnews": "https://www.dlnews.com/arc/outboundfeeds/rss/",
+    "cryptonews": "https://crypto.news/feed/",
+    "cryptoslate": "https://cryptoslate.com/feed/",
+    "bitcoinmagazine": "https://bitcoinmagazine.com/.rss/full/",
+    "thedefiant": "https://thedefiant.io/api/feed",
+    "blockworks": "https://blockworks.co/feed",
+    "cryptobriefing": "https://cryptobriefing.com/feed/",
+    "newsbtc": "https://newsbtc.com/feed/",
+    "dailyhodl": "https://dailyhodl.com/feed/",
+    "bitcoinist": "https://bitcoinist.com/feed/",
+    "ambcrypto": "https://ambcrypto.com/feed/",
+    "cryptopotato": "https://cryptopotato.com/feed/",
+    "blockonomi": "https://blockonomi.com/feed/",
+    "beincrypto": "https://beincrypto.com/feed/",
+    "u_today": "https://u.today/rss",
+    "cointribune": "https://www.cointribune.com/en/feed/"
+  },
+
+  "news_defi": {
+    "defi_prime": "https://defiprime.com/feed.xml"
+  },
+
+  "news_regulation": {
+    "coindesk_policy": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml&_website=coindesk&section=/policy/",
+    "cointelegraph_regulation": "https://cointelegraph.com/rss/tag/regulation"
+  },
+
+  "fundraising_news": {
+    "cryptonews_funding": "https://crypto.news/tag/fundraising/feed/"
+  },
+
+  "medium_tags": [
+    "cryptocurrency", "defi", "web3", "blockchain",
+    "ethereum", "tokenomics", "rwa", "bitcoin"
+  ],
+
+  "substack": {
+    "thedefiant_sub": "https://newsletter.thedefiant.io/feed",
+    "week_in_ethereum": "https://weekinethereumnews.com/feed/"
+  },
+
+  "russian": {
+    "forklog": "https://forklog.com/feed/",
+    "incrypted": "https://incrypted.com/feed/"
+  }
+}

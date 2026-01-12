@@ -1,0 +1,17 @@
+.git
+.gitignore
+.env
+*.md
+!README.md
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.vscode
+.idea
+*.log
+data/
+logs/
+*.db
+state.json

@@ -1,0 +1,87 @@
+{
+  "twitter_accounts": [
+    {"handle": "cobie", "category": "defi"},
+    {"handle": "WuBlockchain", "category": "news"},
+    {"handle": "TheBlock__", "category": "news"},
+    {"handle": "coindesk", "category": "news"},
+    {"handle": "Cointelegraph", "category": "news"},
+    {"handle": "Bankless", "category": "news"},
+    {"handle": "unchainedpod", "category": "news"},
+    {"handle": "thedefiant_", "category": "news"},
+
+    {"handle": "EleanorTerrett", "category": "regulatory"},
+    {"handle": "HaileyLennonBTC", "category": "regulatory"},
+    {"handle": "jchervinsky", "category": "regulatory"},
+    {"handle": "ariaredbord", "category": "regulatory"},
+
+    {"handle": "EricBalchunas", "category": "institutional"},
+    {"handle": "JSeyff", "category": "institutional"},
+    {"handle": "novogratz", "category": "institutional"},
+    {"handle": "RaoulGMI", "category": "institutional"},
+    {"handle": "saylor", "category": "institutional"},
+    {"handle": "CathieDWood", "category": "institutional"},
+    {"handle": "daborantapiero", "category": "institutional"},
+
+    {"handle": "a16zcrypto", "category": "vc"},
+    {"handle": "paradigm", "category": "vc"},
+    {"handle": "polyaborochaincap", "category": "vc"},
+    {"handle": "dragonfly_xyz", "category": "vc"},
+    {"handle": "PanteraCapital", "category": "vc"},
+    {"handle": "cbventures", "category": "vc"},
+    {"handle": "BinanceLabs", "category": "vc"},
+
+    {"handle": "VitalikButerin", "category": "founder"},
+    {"handle": "cz_binance", "category": "founder"},
+    {"handle": "brian_armstrong", "category": "founder"},
+    {"handle": "stani", "category": "founder"},
+    {"handle": "haydenzadams", "category": "founder"},
+    {"handle": "kaboroaiynne", "category": "founder"},
+    {"handle": "aeyakovenko", "category": "founder"},
+    {"handle": "balajis", "category": "founder"},
+
+    {"handle": "MessariCrypto", "category": "research"},
+    {"handle": "DelphiDigital", "category": "research"},
+    {"handle": "WillyWoo", "category": "research"},
+    {"handle": "glassnodealerts", "category": "research"},
+    {"handle": "100trillionUSD", "category": "research"},
+    {"handle": "LynAldenContact", "category": "research"},
+    {"handle": "nic__carter", "category": "research"},
+
+    {"handle": "DefiIgnas", "category": "defi"},
+    {"handle": "Pedroexplore1", "category": "defi"},
+    {"handle": "CryptoHayes", "category": "defi"},
+    {"handle": "lightcrypto", "category": "defi"},
+    {"handle": "DeFiLlama", "category": "defi"},
+
+    {"handle": "GreeksLive", "category": "derivatives"},
+    {"handle": "laevitas1", "category": "derivatives"},
+    {"handle": "vegavisuals", "category": "derivatives"},
+    {"handle": "amaborerdata", "category": "derivatives"},
+    {"handle": "GenesisVol", "category": "derivatives"},
+    {"handle": "tradeparadigm", "category": "derivatives"},
+    {"handle": "SignalPlusDAO", "category": "derivatives"},
+
+    {"handle": "kaikofinance", "category": "quant"},
+    {"handle": "intotheblock", "category": "quant"},
+    {"handle": "tokenterminal", "category": "quant"},
+    {"handle": "artemis__xyz", "category": "quant"},
+    {"handle": "DuneAnalytics", "category": "quant"},
+    {"handle": "nansen_ai", "category": "quant"},
+
+    {"handle": "OndoFinance", "category": "rwa"},
+    {"handle": "centrifuge", "category": "rwa"},
+    {"handle": "swarm", "category": "rwa"},
+    {"handle": "plume_xyz", "category": "rwa"},
+
+    {"handle": "HyperliquidX", "category": "infra"},
+    {"handle": "arbitrum", "category": "infra"},
+    {"handle": "Optimism", "category": "infra"},
+    {"handle": "base", "category": "infra"},
+    {"handle": "monad_xyz", "category": "infra"},
+    {"handle": "berachain", "category": "infra"},
+
+    {"handle": "ForkLog", "category": "ru"},
+    {"handle": "bitsmedia", "category": "ru"},
+    {"handle": "incryptonews", "category": "ru"}
+  ]
+}

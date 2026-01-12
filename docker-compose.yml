@@ -1,0 +1,12 @@
+services:
+  market-pulse:
+    build: .
+    container_name: market-pulse
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/var/log
+    environment:
+      - TZ=Europe/Moscow
