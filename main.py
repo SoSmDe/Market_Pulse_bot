@@ -120,15 +120,18 @@ async def run_digest():
 
     # === SEND ===
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    chat_ids_str = os.getenv("TELEGRAM_CHAT_IDS") or os.getenv("TELEGRAM_CHAT_ID")
 
-    if not bot_token or not chat_id:
-        print("\nTELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set")
+    if not bot_token or not chat_ids_str:
+        print("\nTELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_IDS not set")
         print("\n--- PREVIEW ---\n")
         print(message)
         return
 
-    await send_digest(bot_token, chat_id, message)
+    chat_ids = [cid.strip() for cid in chat_ids_str.split(",")]
+    for chat_id in chat_ids:
+        await send_digest(bot_token, chat_id, message)
+        print(f"   Sent to chat_id: {chat_id}")
 
     # === MARK AS SENT ===
     print("\nSaving to database...")
